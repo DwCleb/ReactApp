@@ -14,6 +14,9 @@ module.exports = {
           loader: 'babel-loader',
       },
       }
-  ],
+    ],
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'public')
+  }
 };
